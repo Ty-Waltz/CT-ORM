@@ -267,4 +267,5 @@ def restock_products():
     return jsonify({"message": "Products restocked successfully"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) 
+    #test
